@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-07T03:59:14 AST" name="Default suite" finished-at="2025-05-07T03:59:34 AST" duration-ms="19958">
+    <groups>
+    </groups>
+    <test started-at="2025-05-07T03:59:14 AST" name="Default test" finished-at="2025-05-07T03:59:34 AST" duration-ms="19958">
+      <class name="mosafer.TestMosafer">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:14 AST" name="mySetup" finished-at="2025-05-07T03:59:19 AST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="currencySAR()[pri:1, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:19 AST" name="currencySAR" finished-at="2025-05-07T03:59:21 AST" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencySAR -->
+        <test-method signature="checkthedefualtlanguage()[pri:2, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:21 AST" name="checkthedefualtlanguage" finished-at="2025-05-07T03:59:21 AST" duration-ms="39" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [en] but found [ar]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [en] but found [ar]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at mosafer.TestMosafer.checkthedefualtlanguage(TestMosafer.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkthedefualtlanguage -->
+        <test-method signature="checkcontactnumber()[pri:3, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:21 AST" name="checkcontactnumber" finished-at="2025-05-07T03:59:21 AST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcontactnumber -->
+        <test-method signature="verifyCurrencyIsSAR()[pri:4, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:21 AST" name="verifyCurrencyIsSAR" finished-at="2025-05-07T03:59:22 AST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrencyIsSAR -->
+        <test-method signature="verifyQitafLogoIsDisplayed()[pri:5, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:22 AST" name="verifyQitafLogoIsDisplayed" finished-at="2025-05-07T03:59:22 AST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQitafLogoIsDisplayed -->
+        <test-method signature="verifyFlightsTabIsSelected()[pri:6, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:22 AST" name="verifyFlightsTabIsSelected" finished-at="2025-05-07T03:59:22 AST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsTabIsSelected -->
+        <test-method signature="verifyDefaultFlightDates()[pri:7, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:22 AST" name="verifyDefaultFlightDates" finished-at="2025-05-07T03:59:22 AST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultFlightDates -->
+        <test-method signature="testLanguageByUrl()[pri:8, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:22 AST" name="testLanguageByUrl" finished-at="2025-05-07T03:59:27 AST" duration-ms="5094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLanguageByUrl -->
+        <test-method signature="searchHotelWithRandomLocation()[pri:9, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:27 AST" name="searchHotelWithRandomLocation" finished-at="2025-05-07T03:59:28 AST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelWithRandomLocation -->
+        <test-method signature="randomlySelectPplOption()[pri:10, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:28 AST" name="randomlySelectPplOption" finished-at="2025-05-07T03:59:28 AST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomlySelectPplOption -->
+        <test-method signature="clickSearchButton()[pri:11, instance:mosafer.TestMosafer@4ae33a11]" started-at="2025-05-07T03:59:28 AST" name="clickSearchButton" finished-at="2025-05-07T03:59:34 AST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+      </class> <!-- mosafer.TestMosafer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
